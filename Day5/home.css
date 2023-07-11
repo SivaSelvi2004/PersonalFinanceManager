@@ -1,0 +1,107 @@
+nav{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(245, 149, 149);
+    padding: 20px 80px;
+    box-shadow: 0 5px 15px white;
+    position:fixed;
+    width:100%;
+    /* height: 15%; */
+}
+#navbar{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#navbar li{
+    display:inline-block;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0 20px;
+    position:relative;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+#navbar li a:hover{
+    color:rgb(114, 158, 208);
+}
+#navbar li a:hover::after{
+    content: "";
+    width: 20%;
+    height:2px;
+    background-color:rgb(114, 158, 208);
+    position:absolute;
+    bottom:-4px;
+    left:20px;
+} */
+ #mobile i{
+    color:white;
+}
+#mobile{
+    display:none; 
+ } 
+ @media screen and (max-width:760px){   
+    #navbar{
+        display:flex;
+        flex-direction: column;
+        align-items:flex-start;
+        justify-content: flex-start;
+        position:fixed;
+        top:90px;
+        right:-300px;
+        width:300px;
+        height:100vh;
+        background-color: rgb(245, 149, 149);
+        box-shadow: 0 40px 60px rgba(0,0,0,0.1);
+        padding: 40px 0 0 10px;
+        transition:0.3s ease-in-out;
+    }
+    #navbar.active{
+        right:0px;
+    }
+    #mobile{
+        display:block;
+    }
+    #navbar li{
+        margin-bottom:25px;
+    }
+    #mobile i{
+        font-size: 24px;
+        cursor:pointer;
+    }
+ }
+ /* .hd{
+    height:50%;
+    padding-top:82px;
+ } */
+
+ .hd1{
+    height:50%;
+    width:20%;
+    float:left;
+    display: flex;
+    padding-top:500px;
+    background-color: rgb(158, 157, 157);
+ }
+ .hd2{
+    width:80%;
+    height:50%;
+    float:right;
+    /* display: flex; */
+    background-color: rgb(143, 143, 236);
+ }
+.foot{
+    height:20%;
+    width:100%;
+    display: flex;
+    background-color: bisque;
+    padding-top: 100px;
+}
