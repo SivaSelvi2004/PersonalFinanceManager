@@ -1,0 +1,112 @@
+.back-grnd{
+    position: relative;
+}
+nav{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(245, 149, 149);
+    padding: 20px 80px;
+    box-shadow: 0 5px 15px white;
+    position:relative;
+    width:100%;
+    /* height: 15%; */
+}
+#navbar{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#navbar1{
+    padding-top: 100px;
+}
+#navbar li{
+    display:inline-block;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0 20px;
+    position:relative;
+    
+}
+#navbar1 li{
+    display:inline-block;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0 20px;
+    position:relative;
+    background-color: rgb(242, 129, 129);
+    width:80%;
+    border-radius: 6px;
+}
+#navbar li a,
+#navbar1 li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+#navbar li a:hover,
+#navbar1 li a:hover{
+    color:rgb(114, 158, 208);
+}
+#navbar li a:hover::after,
+#navbar1 li a:hover::after{
+    content: "";
+    width: 20%;
+    height:2px;
+    background-color:rgb(114, 158, 208);
+    position:absolute;
+    bottom:-4px;
+    left:20px;
+} 
+ #mobile i{
+    color:white;
+}
+#mobile{
+    display:none; 
+ } 
+ 
+.hd1{
+    background-image:linear-gradient(45deg, 
+    rgba(243, 139, 137, 0.75),
+     rgba(84, 151, 218, 0.75)),url('../assets/image8.jpg');
+     padding-top: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    /* height: 80%; */
+    width:100%;
+
+ }
+ *{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ .hd{
+    /* padding-bottom: 100px; */
+    overflow: none;
+ }
+ .hd2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+    width:50%;
+    overflow: none;
+    height:40%;
+    padding-top: 50px;
+    padding-right: 100px;
+    float:right;
+    font-size: small;
+    /* background-color:brown; */
+ }
+  
+  /* Clear floats after the columns */
+  .hd3 {
+    /* font-size:50px; */
+    padding-bottom: 50px;
+    height:40%;
+    width:15%;
+    /* background-color:rgb(230, 126, 221); */
+    /* opacity: 0.5; */
+  }
