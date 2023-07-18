@@ -1,0 +1,33 @@
+.d2{
+    float:center;
+    width: 80%;
+    height: 500px;
+    padding-top: 50px;
+    border-radius: 10px;
+    background-color:aliceblue;
+    /* padding-left: 50%; */
+    background-image:url("../assets/image2.jpg") ;
+    background-size: 800px;
+
+}
+.d3{
+    width:35%;
+    height:400px;
+    float:right;
+    background-color:white;
+}
+
+.d1{
+    background-image:linear-gradient(45deg, 
+    rgba(243, 139, 137, 0.75),
+     rgba(84, 151, 218, 0.75));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    height:730px;
+}
+.main{
+    font-family: cursive;
+}
