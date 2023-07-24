@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styling for the header section */
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #29335c;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Container for the main content */
+  .ash {
+    max-width: 1200px;
+    margin: 60px auto 0; /* Add margin-top to make space for the fixed header */
+    padding-top: 5%;
+    height: calc(100vh - 60px); /* Set a fixed height for the content area */
+    overflow-y: auto; /* Enable vertical scrolling for the content */
+  }
+  
+  /* Styling for each section */
+  .section-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .section-description {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  /* Styling for the list items in the Key Features section */
+  .section-description ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .sections {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for the team member section */
+  .team-member {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .team-member-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .team-member-info {
+    flex: 1;
+  }
+  
+  .team-member-name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .team-member-role {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  /* Styling for the contact information section */
+  .contact-info {
+    margin-top: 20px;
+  }
+  
+  .contact-info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .contact-info-text {
+    font-size: 16px;
+  }
+  
+  /* Styling for the footer section */
+  .footer {
+    /* position: fixed;
+    bottom: 0;
+    left: 0; */
+    width: 100%;
+    background-color: #29335c;
+    color: #fff;
+    padding: 10px;
+  }

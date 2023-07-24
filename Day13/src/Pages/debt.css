@@ -1,0 +1,79 @@
+
+
+.dd2{
+    background-image:linear-gradient(45deg, 
+    rgba(243, 139, 137, 0.75),
+     rgba(84, 151, 218, 0.75));  
+    width:100vw;
+    height:85vh;
+
+}
+.dd3{
+    /* align:center; */
+    padding-top: 10rem;
+    width:60vw;
+    height:45vh;
+}
+.dd6{
+    /* align:center; */
+    padding-bottom: 10rem;
+    width:60vw;
+    height:45vh;
+}
+.dd4{
+    height:20vh;
+    width:20vw;
+    background-image: url('../assets/image12.jpg');
+    background-size:cover;
+    float: left;
+}
+.dd5{
+    height:20vh;
+    width:20vw;
+    background-image:url('../assets/image11.jpg');
+    float: right;
+}
+.dd7{
+    height:20vh;
+    width:20vw;
+    float: left;
+}
+.dd8{
+    height:20vh;
+    width:20vw;
+    float: right;
+}
+.dd2 {
+    background-image: linear-gradient(45deg, rgba(243, 139, 137, 0.75), rgba(84, 151, 218, 0.75));
+    width: 100vw;
+    height: 85vh;
+}
+
+.dd3, .dd6 {
+    padding-top: 10rem;
+    width: 60vw;
+    height: 45vh;
+}
+
+.dd4, .dd5, .dd7, .dd8 {
+    height: 20vh;
+    width: 20vw;
+}
+
+.dd4, .dd5 {
+    background-size: cover;
+}
+
+/* Styles for screens with width <= 768px */
+@media (max-width: 768px) {
+    .dd3, .dd6 {
+        width: 90vw;
+    }
+}
+
+/* Styles for screens with width <= 576px */
+@media (max-width: 576px) {
+    .dd3, .dd6 {
+        width: 100vw;
+    }
+}

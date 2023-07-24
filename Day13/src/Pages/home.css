@@ -1,0 +1,147 @@
+.back-grnd{
+    position: relative;
+    width:100vw;
+}
+nav{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(244, 191, 191);
+    position:relative;
+    padding: 1.5rem 5rem;
+    width:100%;
+}
+#navbar{
+    display:flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+}
+#navbar1{
+    padding-top: 6rem; 
+     /* background-color:rgb(245, 217, 217); */
+}
+#navbar li{
+    display:inline-block;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0 1rem;
+    position:relative;
+}
+#navbar1 li{
+    display:inline-block;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0 2.5rem;
+    background-color:rgb(245, 217, 217);
+    width:12vw;
+    border-radius: 1rem;
+}
+#navbar li a,
+#navbar1 li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(30, 32, 62);
+    transition: 0.3s ease-in-out;
+}
+#navbar li a:hover,
+#navbar1 li a:hover{
+    color:rgb(242, 245, 249);
+}
+#navbar li a:hover::after,
+#navbar1 li a:hover::after{
+    content: "";
+    width: 20%;
+    height:2px;
+    background-color:rgb(31, 32, 34);
+    position:absolute;
+    bottom:-4px;
+    left:2rem;
+} 
+ #mobile i{
+    color:white;
+}
+#mobile{
+    display:none; 
+ } 
+ 
+.hd1{
+    background-image:linear-gradient(45deg, 
+    rgb(240, 151, 151),
+     rgba(108, 176, 245, 0.75));
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80%;
+    width:100%;
+
+ }
+ .hd{
+    /* padding-top: 7rem; */
+    overflow: none;
+ }
+ .hd2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+    overflow: none;
+    width:50%;
+    height:40%;
+    padding-top: 10rem;
+    padding-right: 100px;
+    float:right;
+    /* font-size: small; */
+ }
+  
+  .hd3 {
+    padding-bottom: 1rem;
+    height:35%;
+    width:20vw;
+    background-color:  rgb(240, 212, 212),
+    rgba(191, 219, 247, 0.75);
+    padding-left: 5rem;
+    
+  }
+  /* @media screen and (max-width: 768px) {
+    nav {
+        padding: 1rem 2rem;
+    }
+
+    #navbar1 li {
+        padding: 0.5rem 1rem;
+        width: 8vw;
+    }
+
+    #navbar1 {
+        padding-top: 3rem;
+    }
+
+    .hd2 {
+        width: 100%;
+        float: none;
+        padding: 20px;
+    }
+
+    .hd1 {
+        height: 50%;
+    }
+
+    .hd3 {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hd2 {
+        padding: 20px;
+        font-size: small;
+    }
+    .hd {
+        padding-top: 2rem;
+    }
+
+    .hd1 {
+        height: 40%;
+    }
+} */
